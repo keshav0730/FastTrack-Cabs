@@ -1,48 +1,71 @@
-# 🚀 Reddit Clone - The Ultimate Community Hub
+# 🚖 FastTrack Cab - Ride-Hailing App
 
-### 👋 Welcome to the Future of Online Communities!
-
-This **Reddit Clone** is a feature-rich, full-stack social media platform inspired by Reddit. Built with cutting-edge technologies, it offers a seamless user experience, real-time interactions, and a blazing-fast performance. Join the revolution and start building communities like never before! 🌍🔥
-
----
-
-## ⚡ Key Features
-
-✅ **Modern UI/UX** – Fully responsive and beautifully designed with Tailwind CSS 🎨  
-✅ **Authentication & Authorization** – Secure login with NextAuth.js 🔐  
-✅ **Real-time Data Handling** – Efficient database management with Prisma 🗄️  
-✅ **Serverless & Scalable** – Powered by AWS for high availability ☁️  
-✅ **SEO Optimized & Blazing Fast** – Built with Next.js 🚀  
-✅ **Custom Subreddits & Post Management** – Engage in diverse discussions 📢  
-✅ **Voting System & Comments** – Express your opinions and interact with others 🗳️  
-✅ **Dark Mode Support** – Because everyone loves dark mode! 🌑  
+FastTrack Cab is a **MERN stack-based ride-hailing application** designed for seamless cab booking, real-time tracking, and secure payments. Whether you're a rider looking for a quick trip or a driver ready to earn, FastTrack Cab delivers a **fast, safe, and reliable experience**. 🚗💨
 
 ---
 
 ## 🛠 Tech Stack
 
-| Technology    | Description |
-|--------------|-------------|
-| **Next.js**  | The best React framework for fast, SEO-friendly applications |
-| **Tailwind CSS** | Utility-first CSS framework for rapid UI development |
-| **NextAuth.js** | Secure and flexible authentication system |
-| **Prisma** | Modern database ORM for seamless backend integration |
-| **AWS** | Scalable cloud computing for global deployment |
+- **MongoDB** - NoSQL database for efficient ride storage 📊
+- **Express.js** - Backend framework for handling requests ⚙️
+- **React.js** - Interactive UI for smooth booking experience 🎨
+- **Node.js** - Server-side logic for ride management 🚀
+- **Socket.io** - Real-time tracking & communication 📡
+- **Google Maps API** - Integrated maps for route guidance 🗺️
+- **JWT Authentication** - Secure login for users & drivers 🔐
+- **Stripe/PayPal** - Secure payment processing 💳
+
+---
+
+## 🚀 Features
+
+✅ **User & Driver Authentication** – Secure login/signup with JWT 🔑  
+✅ **Real-Time Ride Tracking** – Live updates via Google Maps 📍  
+✅ **Fare Estimation & Payment Integration** – Instant price calculation 💰  
+✅ **Ride Booking & Cancellation** – Flexible ride scheduling 🚕  
+✅ **Driver Matching Algorithm** – Smart allocation of nearest drivers 🏎️  
+✅ **Admin Dashboard** – Manage rides, users, and revenue 📊  
+✅ **Dark Mode Support** – Sleek UI with light/dark theme 🌙  
+
+---
+
+## 📦 Installation & Setup
+
+Follow these steps to set up the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/fasttrack-cab.git
+
+# Navigate to the project folder
+cd fasttrack-cab
+
+# Install dependencies
+npm install
+
+# Start the backend server
+cd backend
+npm start
+
+# Start the frontend client
+cd frontend
+npm start
+```
 
 ---
 
 ## 🔗 Live Demo
-🚀 **Experience the app live!** 👉 [Reddit Clone](https://reddit-clone-teal.vercel.app/)
+🚀 **Experience the app live!** 👉 [FastTrack Cab](https://fasttrack-cab.vercel.app/)
 
 ---
 
 ## 🤝 Contributing
-We welcome contributions! Feel free to fork the repository, submit issues, and make pull requests. Let's build something amazing together. 💡🔥
+
+We welcome contributions! Fork the repo, submit issues, and create pull requests to improve the app. Let's build something amazing together. 💡🔥
 
 ---
 
 ## 📜 License
 This project is licensed under **MIT License** © Keshav Mishra
 
-🚀 Happy Coding & Community Building! 🎉
-
+🚀 Happy Coding & Safe Rides! 🎉
